@@ -3,36 +3,40 @@
 <head>
 <title>Train Reservation Application</title>
 </head>
-<body bgcolor="lightblue" text="black">
+<body bgcolor="pink" text="black">
 <center>
- <h2><u>Train Reservation Application</u></h2>
-</center>
+ <h2><u><i>Train Reservation Application</i></u></h2>
+
 <form>
  <!--Name-->
- <label for="name">Full Name:</label><br>
+ <label for="name">Full Name:</label>
  <input type="text"id="name"name="name"><br><br>
   
  <!--Age-->
- <label for="age">Age:</label><br>
+ <label for="age">Age:</label>
  <input type="number"id="age"name="age"><br><br>
 
  <!--Gender-->
- <label for="Gender">Gender:</label><br>
+ <label for="Gender">Gender:</label>
  <input type="radio"id="male"name="gender"value="Male">
  <label for="male">Male</label>
  <input type="radio"id="female"name="gender"value="Female">
  <label for="female">Female</label><br><br>
 
- <!--From Station-->
- <label for="to">To Station:</label><br>
+<!--From Station-->
+ <label for="from">From Station:</label>
+ <input type="text"id="from"name="from"><br><br>
+
+ <!--To Station-->
+ <label for="to">To Station:</label>
  <input type="text"id="to"name="to"><br><br>
 
  <!--Date of Journey-->
- <label for="date">Date of Journey</label><br>
+ <label for="date">Date of Journey</label>
  <input type="date"id="date"name="date"><br><br>
 
  <!--Class-->
- <label for="class">Class:</label><br>
+ <label for="class">Class:</label>
  <select id="class" name="class">
  <option value=" ">--Select--</option>
  <option value="Sleeper">Sleeper</option>
@@ -45,5 +49,6 @@
  <input type="submit"value="Book Ticket">
 
 </form>
+</center>
 </body>
 </html>
